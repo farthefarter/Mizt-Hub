@@ -1,0 +1,173 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local MiztHub = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MiztHub.Name = "Mizt Hub"
+MiztHub.Parent = ScreenGui
+MiztHub.BackgroundColor3 = Color3.fromRGB(127, 127, 127)
+MiztHub.Position = UDim2.new(0.231863439, 0, 0.197674423, 0)
+MiztHub.Size = UDim2.new(0, 340, 0, 231)
+
+Frame.Parent = MiztHub
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.494773507, 0, 0.172566369, 0)
+Frame.Size = UDim2.new(0, 2, 0, 187)
+
+TextButton.Parent = MiztHub
+TextButton.BackgroundColor3 = Color3.fromRGB(62, 130, 255)
+TextButton.Size = UDim2.new(0, 340, 0, 51)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Mizt Hub"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 30.000
+
+TextButton_2.Parent = MiztHub
+TextButton_2.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+TextButton_2.Position = UDim2.new(0.5, 0, 0.220779225, 0)
+TextButton_2.Size = UDim2.new(0, 170, 0, 25)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Neko"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 19.000
+
+TextButton_3.Parent = MiztHub
+TextButton_3.BackgroundColor3 = Color3.fromRGB(179, 179, 179)
+TextButton_3.Position = UDim2.new(0.5, 0, 0.329004318, 0)
+TextButton_3.Size = UDim2.new(0, 170, 0, 25)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Neptunian V"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = MiztHub
+TextButton_4.BackgroundColor3 = Color3.fromRGB(165, 165, 165)
+TextButton_4.Position = UDim2.new(0.5, 0, 0.437229425, 0)
+TextButton_4.Size = UDim2.new(0, 170, 0, 26)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Pandora"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Parent = MiztHub
+TextButton_5.BackgroundColor3 = Color3.fromRGB(162, 162, 162)
+TextButton_5.Position = UDim2.new(0.5, 0, 0.549783528, 0)
+TextButton_5.Size = UDim2.new(0, 170, 0, 22)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Pubg pan"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+
+TextButton_6.Parent = MiztHub
+TextButton_6.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+TextButton_6.Position = UDim2.new(0.494117647, 0, 0.645021617, 0)
+TextButton_6.Size = UDim2.new(0, 172, 0, 22)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Rainbow infinite"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 14.000
+
+TextButton_7.Parent = MiztHub
+TextButton_7.BackgroundColor3 = Color3.fromRGB(153, 153, 153)
+TextButton_7.Position = UDim2.new(0.494117647, 0, 0.740259767, 0)
+TextButton_7.Size = UDim2.new(0, 172, 0, 22)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Ravenger claws"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 14.000
+
+TextButton_8.Parent = MiztHub
+TextButton_8.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
+TextButton_8.Position = UDim2.new(0.5, 0, 0.835497856, 0)
+TextButton_8.Size = UDim2.new(0, 170, 0, 22)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Sniner"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 14.000
+
+TextButton_9.Parent = MiztHub
+TextButton_9.BackgroundColor3 = Color3.fromRGB(139, 139, 139)
+TextButton_9.Position = UDim2.new(0, 0, 0.220779225, 0)
+TextButton_9.Size = UDim2.new(0, 168, 0, 25)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "bot"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 14.000
+
+TextButton_10.Parent = MiztHub
+TextButton_10.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
+TextButton_10.Position = UDim2.new(0, 0, 0.333333343, 0)
+TextButton_10.Size = UDim2.new(0, 168, 0, 24)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "free bot"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 14.000
+
+TextButton_11.Parent = MiztHub
+TextButton_11.BackgroundColor3 = Color3.fromRGB(145, 145, 145)
+TextButton_11.Position = UDim2.new(0, 0, 0.437229425, 0)
+TextButton_11.Size = UDim2.new(0, 170, 0, 26)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "free semi bot"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextSize = 14.000
+
+TextButton_12.Parent = MiztHub
+TextButton_12.BackgroundColor3 = Color3.fromRGB(141, 141, 141)
+TextButton_12.Position = UDim2.new(0, 0, 0.549783528, 0)
+TextButton_12.Size = UDim2.new(0, 168, 0, 22)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "permanent death"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextSize = 14.000
+
+TextButton_13.Parent = MiztHub
+TextButton_13.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
+TextButton_13.Position = UDim2.new(0, 0, 0.645021617, 0)
+TextButton_13.Size = UDim2.new(0, 168, 0, 22)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "semi bot"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextSize = 14.000
+
+TextButton_14.Parent = MiztHub
+TextButton_14.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
+TextButton_14.Position = UDim2.new(0, 0, 0.740259767, 0)
+TextButton_14.Size = UDim2.new(0, 168, 0, 22)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "simple"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextSize = 14.000
+
+TextButton_15.Parent = MiztHub
+TextButton_15.BackgroundColor3 = Color3.fromRGB(165, 165, 165)
+TextButton_15.Position = UDim2.new(0, 0, 0.835497856, 0)
+TextButton_15.Size = UDim2.new(0, 168, 0, 22)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "Lynx"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextSize = 14.000
